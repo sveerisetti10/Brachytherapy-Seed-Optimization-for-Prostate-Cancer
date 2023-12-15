@@ -11,9 +11,9 @@ The model addresses a critical question in radiation therapy: How to optimally p
 
 ## Model Specifications
 
-Objective: To minimize exposure of healthy tissue while ensuring each tumor section receives at least 3 units of exposure.
-Solution Strategy: The model uses an optimization algorithm to determine the best positions for three seeds within the grid, taking into account the unique geometry and requirements of prostate cancer treatment.
-Techniques Used: Implements constraint programming and Euclidean distance calculations within Pyomo's environment to solve the optimization problem.
+- Objective: To minimize exposure of healthy tissue while ensuring each tumor section receives at least 3 units of exposure.
+- Solution Strategy: The model uses an optimization algorithm to determine the best positions for three seeds within the grid, taking into account the unique geometry and requirements of prostate cancer treatment.
+- Techniques Used: Implements constraint programming and Euclidean distance calculations within Pyomo's environment to solve the optimization problem.
 
 ## Installation and Setup
 
@@ -22,9 +22,9 @@ Running the Code: After installing the dependencies, the script can be executed 
 
 ## Usage
 
-Input: The model requires grid information regarding the location of healthy and tumor tissues.
-Execution: Run the script to generate the optimal seed positions based on the defined constraints and objective function.
-Output: The solution provides the coordinates for seed placement, minimizing radiation exposure to healthy tissues.
+- Input: The model requires grid information regarding the location of healthy and tumor tissues.
+- Execution: Run the script to generate the optimal seed positions based on the defined constraints and objective function.
+- Output: The solution provides the coordinates for seed placement, minimizing radiation exposure to healthy tissues.
 
 ## Potential Applications
 
